@@ -60,8 +60,8 @@ begin
         end;
 
         tmp := 'corpNum : '+ corpState.corpNum + #13;
-        tmp := tmp + 'type : '+ VarToStr(corpState.ctype) + #13;
-        tmp := tmp + 'state : '+ VarToStr(corpState.state) + #13;
+        tmp := tmp + 'type : '+ corpState.ctype + #13;
+        tmp := tmp + 'state : '+ corpState.state + #13;
         tmp := tmp + 'stateDate(휴폐업일자) : '+ corpState.stateDate + #13;
         tmp := tmp + 'checkDate(국세청 확인일자) : '+ corpState.checkDate + #13#13;
         
@@ -101,8 +101,8 @@ begin
         for i := 0 to Length(StateList) -1 do
         begin
                 tmp := tmp +'corpNum : '+ StateList[i].corpNum + #13;
-                tmp := tmp +'type : '+ VarToStr(StateList[i].ctype) + #13;
-                tmp := tmp +'state : '+ VarToStr(StateList[i].state) + #13;
+                tmp := tmp +'type : '+ StateList[i].ctype + #13;
+                tmp := tmp +'state : '+ StateList[i].state + #13;
                 tmp := tmp +'stateDate(휴폐업일자) : '+ StateList[i].stateDate + #13;
                 tmp := tmp +'checkDate(국세청 확인일자) : '+ StateList[i].checkDate + #13#13;
         end;
