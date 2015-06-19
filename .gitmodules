@@ -1,0 +1,6 @@
+[submodule "Closedown"]
+	path = Closedown
+	url = https://github.com/linkhub-sdk/closedown.sdk.delphi.git
+[submodule "Linkhub"]
+	path = Linkhub
+	url = https://github.com/linkhub-sdk/linkhub.auth.delphi.git
