@@ -66,7 +66,7 @@ begin
         tmp := tmp + 'checkDate(국세청 확인일자) : '+ corpState.checkDate + #13#13;
         
         tmp := tmp + '* type (사업 유형) : null-알수없음, 1-일반과세자, 2-면세과세자, 3-간이과세자, 4-비영리법인, 국가기관' +#13;
-        tmp := tmp + '* state (사업 유형) : null-알수없음, 0-등록되지 않은 사업자번호, 1-사업중, 2-폐업, 3-휴업';
+        tmp := tmp + '* state (휴폐업상태) : null-알수없음, 0-등록되지 않은 사업자번호, 1-사업중, 2-폐업, 3-휴업';
 
         ShowMessage(tmp);
 end;
@@ -96,7 +96,7 @@ begin
         end;
 
         tmp := '* type (사업 유형) : null-알수없음, 1-일반과세자, 2-면세과세자, 3-간이과세자, 4-비영리법인, 국가기관' +#13;
-        tmp := tmp + '* state (사업 유형) : null-알수없음, 0-등록되지 않은 사업자번호, 1-사업중, 2-폐업, 3-휴업' +#13#13;
+        tmp := tmp + '* state (휴폐업상태) : null-알수없음, 0-등록되지 않은 사업자번호, 1-사업중, 2-폐업, 3-휴업' +#13#13;
         
         for i := 0 to Length(StateList) -1 do
         begin
