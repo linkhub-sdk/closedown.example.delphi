@@ -1,8 +1,8 @@
 object closedownExample: TclosedownExample
   Left = 428
   Top = 190
-  Width = 557
-  Height = 231
+  Width = 613
+  Height = 216
   Caption = '휴폐업조회 API SDK Example.'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -17,7 +17,7 @@ object closedownExample: TclosedownExample
   object GroupBox1: TGroupBox
     Left = 24
     Top = 18
-    Width = 489
+    Width = 545
     Height = 65
     Caption = '휴폐업조회 API'
     Font.Charset = DEFAULT_CHARSET
@@ -29,10 +29,11 @@ object closedownExample: TclosedownExample
     TabOrder = 0
     object Label1: TLabel
       Left = 16
-      Top = 30
-      Width = 69
-      Height = 13
-      Caption = '사업자 번호 :'
+      Top = 32
+      Width = 121
+      Height = 11
+      AutoSize = False
+      Caption = '조회할 사업자번호 :'
       Font.Charset = DEFAULT_CHARSET
       Font.Color = clWindowText
       Font.Height = -11
@@ -41,7 +42,7 @@ object closedownExample: TclosedownExample
       ParentFont = False
     end
     object txtCorpNum: TEdit
-      Left = 97
+      Left = 137
       Top = 27
       Width = 153
       Height = 21
@@ -56,7 +57,7 @@ object closedownExample: TclosedownExample
       Text = '4108600477'
     end
     object btnCheckCorpNum: TButton
-      Left = 259
+      Left = 307
       Top = 23
       Width = 96
       Height = 28
@@ -71,7 +72,7 @@ object closedownExample: TclosedownExample
       OnClick = btnCheckCorpNumClick
     end
     object btnCheckCorpNums: TButton
-      Left = 373
+      Left = 421
       Top = 24
       Width = 95
       Height = 26

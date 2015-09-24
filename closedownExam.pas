@@ -79,7 +79,7 @@ var
         tmp : string;
         i : Integer;
 begin
-        //사업자번호 목록, 최대 1000건
+        //조회할 사업자번호 목록, 최대 1000건
         SetLength(CorpNumList,3);
         CorpNumList[0] := '1234567890';
         CorpNumList[1] := '4352343543';
